@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANKAMREDDI EASWARA SRI SAI VENKAT | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-mark" id="logo-es">ES</span>
+      <span class="logo-tagline">HELLO, I'M</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="cta-btn">Let’s Talk</a>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="section hero">
+
+      <!-- LEFT SIDE -->
+      <div class="hero-left">
+        <h2 class="hero-kicker">HELLO, I'M</h2>
+
+        <h1 class="hero-name">
+          <span>ANKAMREDDI</span><br />
+          <span class="highlight-name">EASWARA SRI SAI VENKAT</span>
+        </h1>
+
+        <p class="hero-role">Software Engineer | Data Science Enthusiast</p>
+
+        <p class="hero-text">
+          I design and develop modern, data-driven applications that connect clean UI with solid backend logic.
+        </p>
+
+        <!-- HERO BUTTONS (UPDATED) -->
+        <div class="hero-buttons">
+          <a href="#work" class="btn primary">View My Work</a>
+          <a href="#about" class="btn outline">About Me</a>
+          <button id="openResume" class="btn outline resume-btn"><img src="images/curriculum-vitae.png" class="btn-icon" alt="Resume Icon">Resume</button>
+
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Easwarasrisai789" target="_blank" class="social-circle"><img src="images/social.png" class="icon-img" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/ankamreddi-easwara-sri-sai-venkat-63090b26a/" target="_blank" class="social-circle"><img src="images/linkedin.png" class="icon-img" alt="LinkedIn" /></a>
+          <a href="mailto:2200032881cseh@gmail.com" target="_blank" class="social-circle"><img src="images/mail.png" class="icon-img" alt="mail" /></a>
+          <a id="logo-es-btn" target="_blank" class="social-circle"><img src="images/play.png" class="icon-img" alt="play-button" /></a>
+
+
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE (ONLY ES CARD) -->
+<!-- RIGHT SIDE (IMAGE by default, VIDEO after clicking ES) -->
+<div class="hero-right">
+  <div class="hero-card" id="esCard">
+
+    <!-- Default Profile Image -->
+    <img src="images/po1.png" class="hero-profile-img" id="heroImage" />
+
+    <!-- Hidden Video -->
+    <video id="esVideo" class="hero-video"
+      src="images/n1.mp4"
+      unmuted
+      playsinline>
+    </video>
+
+  </div>
+</div>
+
+
+
+
+    </section>
+
+    <!-- RESUME MODAL -->
+    <div id="resumeModal" class="resume-modal">
+      <div class="resume-modal-content">
+        <span id="closeResume" class="resume-close">&times;</span>
+        <iframe src="A_EASWARA.Sri.pdf" class="resume-iframe"></iframe>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="about-left">
+        <div class="about-card">
+    <div class="profile-hover-box">
+        <img src="images/pri1 (2).png" class="profile-img main-img" alt="Profile Image">
+        <img src="images/pri1 (1).png" class="profile-img hover-img" alt="Profile Hover Image">
+    </div>
+</div>
+
+      </div>
+
+      <div class="about-right">
+        <p class="section-label">ABOUT ME</p>
+        <h2 class="section-heading">
+          Turning Vision Into<br />
+          <span>Digital Reality</span>
+        </h2>
+
+        <p class="section-text">
+  I am a Computer Science & Engineering (Data Science) student at KL University, Vijayawada,
+  with a strong interest in building real-time applications and solving problems using data-driven approaches.
+</p>
+
+<p class="section-text">
+  My projects include airline management systems, TCP chat applications, emergency response systems,
+  attendance dashboards, and other prototypes that combine backend logic with clean user experiences.
+  These projects helped me understand how real systems work from both technical and user perspectives.
+</p>
+
+<p class="section-text">
+  I work with Python, JavaScript, SQL, Power BI, Pandas, NumPy, and OpenCV, and I enjoy learning new tools
+  that help me build better solutions. I am also expanding my skills in cloud technologies and automation
+  to design more scalable and efficient systems.
+</p>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <p class="section-label">WHAT I DO</p>
+      <h2 class="section-heading">Skills & <span>Expertise</span></h2>
+      <p class="section-subtext">Tools & technologies I use to build modern applications.</p>
+
+      <div class="skills-glass-grid">
+
+        <div class="glass-card">
+          <div class="glass-icon">💻</div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React (Learning)</li>
+          </ul>
+        </div>
+
+        <div class="glass-card">
+          <div class="glass-icon">🧠</div>
+          <h3>Data Science</h3>
+          <ul>
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+          </ul>
+        </div>
+
+        <div class="glass-card">
+          <div class="glass-icon">🗄️</div>
+          <h3>Backend & DB</h3>
+          <ul>
+            <li>Python</li>
+            <li>SQL / MySQL</li>
+            <li>POWER BI (Basics)</li>
+            <li>EXCEL (Basics)</li>
+          </ul>
+        </div>
+
+        <div class="glass-card">
+          <div class="glass-icon">⚙️</div>
+          <h3>Tools & Cloud</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Power BI</li>
+            <li>AWS (Basics)</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="work" class="section work">
+      <p class="section-label">FEATURED</p>
+      <h2 class="section-heading">Featured <span>Projects</span></h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="work-card">
+          <div class="work-top work-top-green"><h3>E-Commerce</h3></div>
+
+          <div class="work-body">
+            <p class="work-tag">Web Development</p>
+            <h4>Airline Management System</h4>
+
+            <p class="work-desc">
+              MERN-style airline system for booking, scheduling, and customer management.
+            </p>
+
+            <div class="work-tags">
+              <span>JavaScript</span><span>MongoDB</span><span>Node</span>
+            </div>
+<div class="project-links">
+    <a href="https://airline-service-1.onrender.com/" class="project-btn demo" target="_blank">
+        Live
+    </a>
+
+    <a href="https://github.com/Easwarasrisai789/AIRLINE_SERVICE" class="project-btn github" target="_blank">
+        GitHub
+    </a>
+</div>
+
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="work-card">
+          <div class="work-top work-top-blue"><h3>Realtime</h3></div>
+
+          <div class="work-body">
+            <p class="work-tag">Network App</p>
+            <h4>TCP Chatroom App</h4>
+
+            <p class="work-desc">
+              Python-based TCP chat application using sockets + Tkinter GUI.
+            </p>
+
+            <div class="work-tags">
+              <span>Python</span><span>TCP</span><span>Tkinter</span>
+            </div>
+
+            <div class="project-links">
+    <a href="https://chatroombox.netlify.app/" class="project-btn demo" target="_blank">
+        Live
+    </a>
+
+    <a href="https://github.com/Easwarasrisai789/chatroom" class="project-btn github" target="_blank">
+        GitHub
+    </a>
+</div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="view-more-box">
+        <a href="projects.html" class="view-more-btn">View More Projects →</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+
+      <div class="contact-left">
+        <p class="section-label">GET IN TOUCH</p>
+        <h2 class="section-heading">Let’s Create <span>Something Great</span></h2>
+
+        <p class="section-text">
+          I’m open to internships, collaborations, and project work.
+        </p>
+
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">2200032881cseh@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Vijayawada, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="contact-right">
+        <form id="contactForm" class="contact-form"
+            action="https://formspree.io/f/xwpgnlgl"
+            method="POST">
+
+          <label>Your Name</label>
+          <input type="text" name="name" placeholder="Your Name" required />
+
+          <label>Your Email</label>
+          <input type="email" name="email" placeholder="you@example.com" required />
+
+          <label>Your Message</label>
+          <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+
+          <button type="submit" class="btn primary full">Send Message</button>
+
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Projects | Eswar Sai Venkat</title>
+
+<style>
+
+/* ---------- GLOBAL ---------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #0b0f13;
+  color: #d7d7d7;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- HEADER ---------- */
+.projects-header {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+.back-btn {
+  color: #00e6b8;
+  font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.projects-sub {
+  color: #9fa6b2;
+  margin-top: 8px;
+}
+
+/* ---------- PROJECT GRID ---------- */
+.projects-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  gap: 30px;
+}
+
+/* ---------- PROJECT CARD ---------- */
+.project-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 25px;
+  transition: 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.15);
+}
+
+.project-type {
+  color: #00e6b8;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #c6c6c6;
+}
+
+/* ---------- TAGS ---------- */
+.tags span {
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 8px;
+  background: rgba(0, 255, 200, 0.1);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #00e6b8;
+}
+
+/* ---------- BUTTONS ---------- */
+.btn-row {
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.btn.demo {
+  background: #00e6b8;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn.github {
+  border: 1px solid #00e6b8;
+  color: #00e6b8;
+}
+
+.btn.github:hover {
+  background: #00e6b8;
+  color: #000;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="projects-header">
+  <h1>All Projects</h1>
+  <p class="projects-sub">A complete collection of my development and data-driven work.</p>
+  <a href="index.html" class="back-btn">← Back to Portfolio</a>
+</header>
+
+<!-- PROJECT GRID -->
+<main class="projects-container">
+  <div class="projects-grid">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <h2>Airline Management System</h2>
+      <p class="project-type">Web Development · MERN-style</p>
+
+      <p class="project-desc">
+        A full airline booking and scheduling system prototype featuring routes, customer handling,
+        and clean UX with modular backend design.
+      </p>
+
+      <div class="tags">
+        <span>JavaScript</span><span>MongoDB</span><span>Node.js</span>
+      </div>
+
+      <div class="btn-row">
+        <a href="https://airline-service-1.onrender.com/" class="btn demo" target="_blank">LIVE</a>
+        <a href="https://github.com/Easwarasrisai789/AIRLINE_SERVICE" class="btn github" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <h2>TCP Chatroom App</h2>
+      <p class="project-type">Network Programming · Python</p>
+
+      <p class="project-desc">
+        A Python-based real-time chat app using sockets + Tkinter GUI, enabling communication
+        between two systems using TCP networking.
+      </p>
+
+      <div class="tags">
+        <span>Python</span><span>TCP</span><span>Tkinter</span>
+      </div>
+
+      <div class="btn-row">
+        <a href="https://chatroombox.netlify.app/" class="btn demo" target="_blank">LIVE</a>
+        <a href="https://github.com/Easwarasrisai789/chatroom" class="btn github" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+      <h2>Emergency QR Code Response System</h2>
+      <p class="project-type">Reinforcement Learning · AI</p>
+
+      <p class="project-desc">
+        Emergency response system using QR codes and Q-learning to automate dispatch decisions
+        for ambulance, police, and fire services.
+      </p>
+
+      <div class="tags">
+        <span>Python</span><span>RL</span><span>Flask</span>
+      </div>
+
+      <div class="btn-row">
+        <a href="https://safetyres-git-main-easwarasrisai789s-projects.vercel.app?_vercel_share=OgsanLeTdJm9RLr2AgsRHs6uU8t3XsWu" class="btn demo" target="_blank">LIVE</a>
+        <a href="https://github.com/Easwarasrisai789/Safetyres" class="btn github" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 4 - SMTP EMAIL SYSTEM -->
+<div class="project-card">
+  <h2>SMTP Server-Based Email System</h2>
+  <p class="project-type">Backend · Email Automation</p>
+
+  <p class="project-desc">
+    Admin-triggered email templates with bulk sending and auto-responses,
+    built on top of an SMTP server workflow.
+  </p>
+
+  <div class="tags">
+    <span>SMTP</span><span>Backend</span><span>Email Automation</span>
+  </div>
+
+  <div class="btn-row">
+    <a href="https://examsoft-1.onrender.com/" class="btn demo" target="_blank">LIVE</a>
+    <a href="https://github.com/Easwarasrisai789/EMAIL" class="btn github" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- PROJECT 5 - RESTAURANT BILLING -->
+<div class="project-card">
+  <h2>Restaurant Billing System (Python + Tkinter)</h2>
+  <p class="project-type">Desktop App · POS</p>
+
+  <p class="project-desc">
+    A desktop billing interface with auto-calculated totals, tax,
+    and printable customer receipts for restaurant orders.
+  </p>
+
+  <div class="tags">
+    <span>Python</span><span>Tkinter</span><span>Desktop App</span>
+  </div>
+
+  <div class="btn-row">
+    <a href="https://billingsystem03.netlify.app/" class="btn demo" target="_blank">LIVE</a>
+    <a href="https://github.com/Easwarasrisai789/restaurant" class="btn github" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- PROJECT 6 - FACEHEALTH -->
+<div class="project-card">
+  <h2>👁️ FaceHealth – Face Recognition Health Analyzer</h2>
+  <p class="project-type">AI · Computer Vision</p>
+
+  <p class="project-desc">
+    Face scanning with ML-based analysis to provide lightweight
+    health insights and real-time feedback from facial cues.
+  </p>
+
+  <div class="tags">
+    <span>Python</span><span>Machine Learning</span><span>Computer Vision</span>
+  </div>
+
+  <div class="btn-row">
+    <a href="https://facehealth.onrender.com/" class="btn demo" target="_blank">LIVE</a>
+    <a href="https://github.com/Easwarasrisai789/facehealth" class="btn github" target="_blank">GitHub</a>
+  </div>
+</div>
+
+  </div>
+</main>
+
+</body>
+</html>
